@@ -1,0 +1,1 @@
+Replace assets/images/profile_cropped.jpg to change the profile image. Publish via GitHub Pages or Netlify.

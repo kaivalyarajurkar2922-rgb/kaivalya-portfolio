@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kaivalya Prashant Rajurkar — Portfolio</title>
+<meta name="description" content="Portfolio of Kaivalya Prashant Rajurkar — Team Player & Effective Communicator.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script defer src="assets/script.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-container">
+    <a class="brand" href="#home">Kaivalya<span>.</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="hero container">
+    <div class="hero-grid">
+      <div class="hero-photo">
+        <img src="assets/images/profile_cropped.jpg" alt="Kaivalya Prashant Rajurkar" class="profile-photo">
+      </div>
+      <div class="hero-text">
+        <h1>KAIVALYA PRASHANT RAJURKAR</h1>
+        <p class="tagline">Team Player | Effective Communicator</p>
+        <p class="lead">I am Kaivalya Prashant Rajurkar, a dedicated Computer Engineering student at Fr. Agnel Bandra, originally from Nagpur and rooted in a Maharashtrian family. With a passion for cricket and Formula 1, I bring the same enthusiasm and strategic thinking to my academic projects. Known for my effective communication skills, I actively contribute to collaborative efforts, striving to deliver impactful results in every team endeavor.</p>
+        <p class="hero-cta"><a class="btn" href="#contact">Contact Me</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="container about-wrap">
+    <h2>About Me</h2>
+    <div class="about-grid">
+      <div class="about-left">
+        <p><strong>Interests &amp; Hobbies:</strong></p>
+        <ul class="skills">
+          <li>Watching Formula 1</li>
+          <li>Cricket</li>
+          <li>Playing Guitar</li>
+          <li>Swimming (sometimes)</li>
+          <li>Passionate learner</li>
+        </ul>
+        <p><strong>Quick facts:</strong></p>
+        <ul>
+          <li>Good listener</li>
+          <li>Computer Engineering student — Fr. Agnel Bandra</li>
+          <li>From Nagpur — Maharashtrian family</li>
+        </ul>
+      </div>
+      <aside class="bio-card">
+        <h3>Achievements</h3>
+        <ol>
+          <li>Safeनेत्र extension — built to warn about malicious links (2024)</li>
+          <li>F1 Art Gallery — visual project on 2024 liveries</li>
+          <li>Group discussion/project on sustainable architecture</li>
+        </ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="projects" class="container projects">
+    <h2>Selected Projects</h2>
+    <div class="project-grid">
+      <article class="project-card">
+        <h3>Safeनेत्र</h3>
+        <p>An extension designed to warn users about corrupted or malicious links and websites, helping prevent malware or virus exposure.</p>
+      </article>
+      <article class="project-card">
+        <h3>F1 Art Gallery</h3>
+        <p>A visual gallery showcasing liveries and driver designs from the 2024 Formula 1 season — a creative tribute to motorsport aesthetics.</p>
+      </article>
+      <article class="project-card">
+        <h3>Sustainable Architecture — Group Discussion</h3>
+        <p>Group project focusing on local materials (mud, lime, stone); my part covered material explanations and uses.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="container contact-wrap">
+    <h2>Contact</h2>
+    <p>Mail: <a href="mailto:kaivalyarajurkar2922@gmail.com">kaivalyarajurkar2922@gmail.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/_kaivalya_2911/?hl=en" target="_blank" rel="noopener">instagram.com/_kaivalya_2911</a></p>
+    <p>GitHub: <a href="https://github.com/kaivalyarajurkar2922-rgb" target="_blank" rel="noopener">github.com/kaivalyarajurkar2922-rgb</a></p>
+
+    <form id="contact-form" class="contact-form" novalidate>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required minlength="2">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+      <button type="submit" class="btn">Send</button>
+      <p id="form-status" class="form-status" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <p>© <span id="year"></span> Kaivalya Prashant Rajurkar</p>
+    <nav class="social">
+      <a href="https://github.com/kaivalyarajurkar2922-rgb" target="_blank">GitHub</a>
+      <a href="https://instagram.com/_kaivalya_2911/?hl=en" target="_blank">Instagram</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
